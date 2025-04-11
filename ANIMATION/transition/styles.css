@@ -1,0 +1,41 @@
+.container{
+    height: 500px;
+    width: 500px;
+    border: 3px solid red;
+    background-color: green;
+
+    display: flex;
+
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: 2px solid orange;
+    background-color: aqua;
+    
+    /* transition: 2s; */
+
+  /* transition: background-color 1s ease 3s; */
+
+  /* transition: all  200ms  ease 1s; */
+
+  /* transition: transform 3s cubic-bezier(0,-0.42, 0.49, 1.07); */
+
+    transition-property: transform;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    transition-delay: 1s;
+
+
+}
+
+.box:hover{
+   background-color: hotpink;
+
+    /* transform: rotate(45deg); */
+
+
+    transform: scale(2) translateX(500px) rotate(360deg);
+}
