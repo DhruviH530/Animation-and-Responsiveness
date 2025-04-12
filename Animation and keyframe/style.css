@@ -1,0 +1,61 @@
+.container{
+    border: 1px solid black;
+    background-color: hotpink;
+    height: 215px;
+    width: 100%;
+
+    
+}
+
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    height: 212px;
+    width: 212px;
+
+    animation-name: dhruvi;
+    animation-duration: 3s;
+    animation-iteration-count: 3;
+    animation-timing-function: ease-in;
+    animation-delay: 1s;
+
+     /* blow this you can make direction chanage */
+
+
+    animation-direction: alternate;
+    /* animation-fill-mode: ; */
+
+}
+
+@keyframes dhruvi{
+    0%{
+            width: 212px;
+            background-color: orange;
+    }
+
+    45%{
+            width: 45%;
+            background-color: white;
+    }
+
+   100%{
+            width: 100%;
+            background-color: green;
+    }
+}
+
+
+
+
+
+
+/* @keyframes dhruvi{
+
+    from{
+            width: 212px;
+    }
+
+    to{
+            width: 800px;
+    }
+} */
